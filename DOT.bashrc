@@ -35,3 +35,4 @@ alias purge='echo "running: shred -u ..."; shred -u "$@"'
 
 # Networking
 alias dns-status='echo "running: resolvectl status && resolvectl query wikipedia.org..."; resolvectl status; resolvectl query wikipedia.org' # check for encrypted DNS
+
