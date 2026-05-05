@@ -1,26 +1,3 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-
-# Created by `pipx` on 2025-11-25 21:35:56
-export PATH="$PATH:/home/USERNAME/.local/bin"
-
-
-#
-#CUSTOM: to apply use: source ~/.bashrc
-#
-
-# To transfer the file contents: cat ~/.bashrc > ~/Desktop/aliases-bashrc.txt and viceversa (with sudo doe)
-
-# To make the modifications stick: source ~/.bashrc
-
 #         #
 # ALIASES #
 #         #
