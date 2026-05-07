@@ -15,6 +15,7 @@ alias ex='exit' #faster exit, for even faster one on a empty line enter: Ctrl+D
 alias cl='clear' #faster keyboard clear
 alias ls-dir='tree -d; echo "Showing result of: tree -d ..."'
 alias save-struct='ls -la -R > File_Structure.txt; echo "The results of: ls -la -R have been saved to File_Structure.txt"'
+alias rlp='echo "Your currently on:"; realpath .' #Shows the current working path in an extended format
 
 
 # CLI Programs generic
@@ -35,4 +36,3 @@ alias purge='echo "running: shred -u ..."; shred -u "$@"'
 
 # Networking
 alias dns-status='echo "running: resolvectl status && resolvectl query wikipedia.org..."; resolvectl status; resolvectl query wikipedia.org' # check for encrypted DNS
-
